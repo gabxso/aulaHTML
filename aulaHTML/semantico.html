@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div&Semantica</title>
+<!-- Mexendo nas cores, tamanho e proporção da página-->
+
+    <style>
+        *{
+            box-sizing: border-box;
+                    }
+                    body{
+margin: 0;
+                    }
+.topo {
+    background-color: gray; 
+    padding: 20px;
+    text-align: center;
+}
+.menu {
+    background-color: #333;
+    overflow:hidden ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px
+}
+.menu a {
+    color: white;
+    padding: 14px 16px;
+    float: left;
+    display: block;
+    text-decoration: none;
+}
+.coluna-50{
+    float: left;
+    width: 50%;
+    padding: 15px;
+    text-align: center;
+    background-color: white
+}
+.rodape {
+    background-color: gray; 
+    padding: 9%;
+    text-align: center;
+}
+
+    </style>
+
+
+</head>
+<body>
+
+            <!-- TAG semântica para o topo -->
+
+    <header class="topo"> 
+
+<h1> Topo </h1>
+<p> Parte principal da página</p>
+    </header>
+
+            <!-- TAG semântica para o menu -->
+
+            <nav class="menu"> 
+
+<!-- Links da página -->
+<a href="index.html"> Link 1</a> 
+<a href="index.html"> Link 2</a>
+<a href="index.html"> Link 3</a>
+<a href="index.html"> Link 4</a>
+
+ </nav>
+
+
+<!-- TAG semântica da coluna da página -->
+
+<section class="coluna-50"> 
+
+    <h2> Coluna </h2>
+
+    <p></p>
+
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo eius facilis amet pariatur aliquam, laboriosam veritatis molestias. A, consectetur. Odit vitae minima totam fugiat non atque quos cupiditate impedit ut.
+
+</section>
+
+<!-- Segunda coluna da página -->
+
+<section class="coluna-50"> 
+    <h2> Coluna </h2>
+
+    <p></p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo eius facilis amet pariatur aliquam, laboriosam veritatis molestias. A, consectetur. Odit vitae minima totam fugiat non atque quos cupiditate impedit ut.
+
+</section>
+
+<!-- TAG para o rodapé da página -->
+
+<footer class="rodape"> 
+
+<h1> Final</h1>    
+
+<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, vitae recusandae, corrupti alias atque tempore praesentium placeat autem eos, tempora est temporibus voluptatem maiores. Ullam consectetur quae doloremque cumque beatae? /p>
+</footer>
+
+</body>
+</html>
